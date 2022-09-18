@@ -1,5 +1,12 @@
 ## Workflow
 
+Webserver:
+
+```
+./serve
+```
+
+Git basics:
 
 ```
 cd Code/kellyzomer.github.io
