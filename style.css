@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
 
-/* This is a comment */ 
+/* 9/19:    I deleted the font-size: 4vw in h1 
+            Haven't commit this yet         */ 
 
 body {
     background-color: #f2f2f2;
     font-family: 'Roboto Slab';
-    margin: 75px 100px 75px;
+    margin: 6vw;
 }
 
 ul {
@@ -28,7 +29,6 @@ li a:hover {
 h1 {
     color: #404040;
     font-size: 50px;
-    font-size: 4vw;
     font-weight: 400;
     padding-top: 75px;
     padding-right: 75px;
@@ -40,5 +40,5 @@ p {
     padding-top: 10px;
 
 
-    
+
 }
