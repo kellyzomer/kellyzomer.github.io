@@ -28,12 +28,17 @@ li a:hover {
 h1 {
     color: #404040;
     font-size: 50px;
+    font-size: 4vw;
     font-weight: 400;
     padding-top: 75px;
+    padding-right: 75px;
 }
 
 
 p {
     color:  #404040;
-    padding-top: 30px;
+    padding-top: 10px;
+
+
+    
 }
