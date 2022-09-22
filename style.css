@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
 
+/* 9/20 added mobile first, 
+changed margin 4vw to px and h1 front size 45 instead of 50px
+boxing size border box is weg */
+
+
+/* Mobile First */
+
+/*[class*="col-"] {
+  width: 100%;
+}*/
+
 body {
     background-color: #f2f2f2;
     font-family: 'Roboto Slab';
-    margin: 6vw;
+    margin: 75px 100px 75px;
     letter-spacing: .1rem;
 }
 
 ul {
     list-style-type: none;
-    margin:  0px;
     float: right;
     text-align: left;
 }
@@ -27,12 +37,10 @@ li a:hover {
 
 h1 {
     color: #404040;
-    font-size: 50px;
-    font-size: 3.5vw;
+    font-size: 40px;
     font-weight: 400;
     padding-top: 75px;
     padding-right: 75px;
-    box-sizing: border-box;
 }
 
 
@@ -41,3 +49,24 @@ p {
     padding-top: 10px;
 }
 
+.middlediv p {
+    width: 700px;
+    text-align: justify;
+}
+
+.linkedin-badge {
+    position:  absolute;
+    bottom:  75px;
+}
+
+.linkedin-badge i {
+    color: #828282;
+}
+
+.linkedin-badge:hover {
+    opacity:  0.6;    
+}
+
+img {
+    float:  right;
+}

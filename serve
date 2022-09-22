@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 set -eufo pipefail
-python -m SimpleHTTPServer 8080
+python -m SimpleHTTPServer 7777
