@@ -1,27 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
 
-/* 9/20 added mobile first, 
-changed margin 4vw to px and h1 front size 45 instead of 50px
-boxing size border box is weg */
-
-
-/* Mobile First */
-
-/*[class*="col-"] {
-  width: 100%;
-}*/
-
 body {
     background-color: #f2f2f2;
     font-family: 'Roboto Slab';
-    margin: 75px 100px 75px;
+    color:  #404040;
+    margin: auto;
+    padding: 2rem;
     letter-spacing: .1rem;
+    max-width: 38rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
-    float: right;
-    text-align: left;
+    min-width: 12ch;
+}
+
+@media (min-width: 320px) {
+    header {
+        flex-direction: row-reverse;
+    }
 }
 
 li a {
@@ -36,27 +42,23 @@ li a:hover {
 }
 
 h1 {
-    color: #404040;
     font-size: 40px;
     font-weight: 400;
-    padding-top: 75px;
-    padding-right: 75px;
 }
 
 
-p {
-    color:  #404040;
+.paragraph1 p {
     padding-top: 10px;
 }
 
-.middlediv p {
-    width: 700px;
+.paragraph2 p {
     text-align: justify;
+    box-sizing: border-box;
 }
 
 .linkedin-badge {
-    position:  absolute;
-    bottom:  75px;
+    object-position: relative;
+    padding-top: 4rem;
 }
 
 .linkedin-badge i {
@@ -64,9 +66,15 @@ p {
 }
 
 .linkedin-badge:hover {
-    opacity:  0.6;    
+    opacity:  0.6;
+}
+
+.photo {
+    max-width: 250px;
 }
 
 img {
-    float:  right;
+    max-width: 100%; 
+    box-shadow: 0 0 20px #ccc; 
+    border-radius:  20px; 
 }
