@@ -1,0 +1,47 @@
+#old code 
+
+
+<!-- OLD NAVBAR HTML
+
+    <div class="navbar">
+        <ul> 
+            <li>
+                <a href="#about-me">About me</a>
+            </li>
+            <li>
+                <a href="#blog">Blog</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>  
+    </div> -->
+
+
+
+/* OLD NAVBAR CSS
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    min-width: 12ch;
+}
+
+
+li a {
+    line-height: 35px;
+    color: #828282;
+    text-decoration: none;
+    font-size: large;
+}
+
+li a:hover {
+    color: #149641;
+}*/
+
+
+
+<!-- FOTO VALCON FOR ABOUT PAGE HTML
+ <div class="photo">
+        <img src="/images/kelly-1024.jpg" alt="Kelly Zomer" />
+</div> -->
