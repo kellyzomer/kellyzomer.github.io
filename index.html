@@ -20,50 +20,58 @@
 <body>
 
 <header>
-    <div class="navbar">
-        <ul> 
-            <li>
-                <a href="#about-me">About me</a>
-            </li>
-            <li>
-                <a href="#blog">Blog</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>  
-    </div>
 
-    <div class="photo">
-        <img src="/images/kelly-1024.jpg" alt="Kelly Zomer" />
-    </div>
-</header>
-
-<h1>Kelly Zomer</h1>
-
-<div class="paragraph1"> 
-   <p>This website is under construction while learning HTML and CSS</p>
+<div class="sidebar" id="sidenavbar">
+ <!--  <button class="button-hide" onclick="nav_close()">Close &times;</button><br> -->
+ <nav>
+  <a href="#blog">Blog</a>
+  <a href="#resume">Resume</a>
+  <a href="#contact">Contact</a>
+  <nav>
 </div>
 
-
-<!-- <div class="paragraph2"> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- <div class="sidebarhide">
+  <button class="button-open" onclick="nav_open()">&#9776;</button>
+  <div class="container">
 </div> -->
+
+</div>
+
+<script>
+function nav_open() {
+  document.getElementById("sidenavbar").style.display = "block";
+}
+
+function nav_close() {
+  document.getElementById("sidenavbar").style.display = "none";
+}
+</script>
+
+
+ <h1>Kelly Zomer</h1>
+
+</header>
+
+
+<div class="photo">
+        <img src="/images/kelly-home.jpg" alt="Kelly Zomer" />
+</div> 
+
+<div class="paragraph1"> 
+   <p>Hi, my name is Kelly!</p>
+</div>
+
+<div class="paragraph2"> 
+    <p>I am happy to share my passions and interests with you on this website. Due to my eagerness to learn I have a wide variety of professional and personal interests. My professional interests have evolved over time. I have a bachelor’s in Marketing and Economics. After discovering the world during some of my first backpacking experiences, I became fascinated by the tremendous differences there are between places, cities and countries. This led to a master’s degree in Economic Geography. However, after two years of researching commercial real estate transactions in the Netherlands, it felt inevitable to learn about IT and data. At this job I’ve learned a lot about working with data, but the urge to have a deep understanding of the technical aspects around data led me to my current job as a data engineering consultant.<br><br> 
+
+    In my free time, I like bouldering and climbing, exploring nature, traveling, food and craft beers, and various sports like running, squash, golf and cycling.</p>
+</div> 
 
 <div class="linkedin-badge">
     <a href="https://www.linkedin.com/in/kelly-zomer-607539102">
         <i class="fa-brands fa-linkedin fa-4x"></i>
     </a> 
 </div>
-
-
-
-
 
 
 </body>
