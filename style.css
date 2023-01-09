@@ -23,52 +23,23 @@ header {
     }
 }
 
+ul {
+     list-style-type: none;
+     margin:  0px;
+     float: right;
+     text-align: left;
+ }
 
-/*NAVBAR CSS*/
-.sidebar {
-    overflow: hidden;
-    position: relative;
-    height: 7em;
-    max-width: 20em;
-    padding: 0.1em;
-}
+ li a {
+     line-height: 25px;
+     color: #828282;
+     text-decoration: none;
+     list-style-type: none;
+ }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    position:  top;
-    right: 100%;
-    padding: 1.5em;
-    background-color: #f3f3f3;
-    transform: translateX(2em);
-    transition: 0.2s transform;
-
-}
- 
-nav:hover,
-nav:focus-within {
-    transform: translateX(100%);
-}
-
-.sidebar a {
-    line-height: 25px;
-    color: #303e54;
-    text-decoration: none;
-    font-size: small;
-    letter-spacing: .0rem;
-}
-
-.button-open {
-    background-color: #303e54;
-    border-radius:  5px;
-    max-width: 100px;
-}
-
-
-.button-hide {
-
-}
-
+ li a:hover {
+     color: #bf2632;
+ }
 
 h1 {
     font-size: 35px;
@@ -101,9 +72,23 @@ h1 {
     padding: 0.3em;
 }
 
+.email {
+    color: #828282;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #828282;
+}
+
+.resume, .blog {
+    padding-top: 30px;
+}
+
+
 img {
     width: 100%;
     max-width: 300px;
     box-shadow: 0 0 20px #ccc; 
     border-radius:  20px; 
-}
+
