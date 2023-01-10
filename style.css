@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
 
 body {
-    background-color: #e1e7f0;
+    background-color: #ebeced;
     font-family: 'Roboto Slab';
-    color:  #303e54;
+    color: #33373b;
     margin: auto;
-    padding: 2rem;
+    padding: 1.4rem;
     letter-spacing: .07rem;
+    line-height: 1.4;
     max-width: 38rem;
 }
 
@@ -23,40 +24,89 @@ header {
     }
 }
 
-ul {
-     list-style-type: none;
-     margin:  0px;
-     float: right;
-     text-align: left;
- }
-
- li a {
-     line-height: 25px;
-     color: #828282;
-     text-decoration: none;
-     list-style-type: none;
- }
-
- li a:hover {
-     color: #bf2632;
- }
-
 h1 {
+    margin-top: 55px;
     font-size: 35px;
     font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 50px;
 }
-
 
 .paragraph1 p {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
-.paragraph2 p {
+.paragraph2 p {}
+
+.photo {
+    max-width: 280px;
+    padding: 0.3em;
+}
+
+/* NAVBAR */
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    margin-right: 15px;
+    float: right;
+    text-align: left;
+    font-size: 78%;
+    letter-spacing: 80%;
+}
+
+li a {
+    line-height: 15px;
+    color: #828282;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li a:hover {
+    color: #3d75ad;
+}
+
+
+/* RESUME, BLOG AND CONTACT */
+
+.resume h2 {
+    font-size: 120%;
+    padding-top: 26px;
+    line-height: 23px;
+    color: #3d75ad;
+    white-space: normal;
+    width: auto;
+}
+
+.resume h3 {
+    font-size: 90%;
+    color: #828282;
+    font-style: italic;
+    line-height: 3px;
+}
+
+.resume p {
+    font-size: 90%;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 20px;
+}
+
+a:link {
+    color: #3d75ad;
+}
+
+.email a:hover {
+    opacity: 0.6;
 }
 
 .linkedin-badge {
     object-position: relative;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .linkedin-badge i {
@@ -64,31 +114,5 @@ h1 {
 }
 
 .linkedin-badge:hover {
-    opacity:  0.6;
+    opacity: 0.6;
 }
-
-.photo {
-    max-width: 280px;
-    padding: 0.3em;
-}
-
-.email {
-    color: #828282;
-    text-decoration: none;
-}
-
-.email:hover {
-    color: #828282;
-}
-
-.resume, .blog {
-    padding-top: 30px;
-}
-
-
-img {
-    width: 100%;
-    max-width: 300px;
-    box-shadow: 0 0 20px #ccc; 
-    border-radius:  20px; 
-
