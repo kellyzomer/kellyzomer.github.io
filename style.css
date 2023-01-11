@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
 
 body {
-    background-color: #ebeced;
+    background-color: #f5f5f5;
     font-family: 'Roboto Slab';
     color: #33373b;
     margin: auto;
     padding: 1.4rem;
-    letter-spacing: .07rem;
-    line-height: 1.4;
+    letter-spacing: .08rem;
+    word-spacing: 0.5rem;
+    line-height: 1.6;
     max-width: 38rem;
+    font-weight: 400;
 }
 
 header {
@@ -25,18 +27,12 @@ header {
 }
 
 h1 {
-    margin-top: 55px;
-    font-size: 35px;
+    margin-top: 75px;
+    font-size: 30px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     line-height: 50px;
 }
-
-.paragraph1 p {
-    padding-top: 5px;
-}
-
-.paragraph2 p {}
 
 .photo {
     max-width: 280px;
@@ -63,17 +59,17 @@ li a {
 }
 
 li a:hover {
-    color: #3d75ad;
+    color: #7396d1;
 }
 
 
 /* RESUME, BLOG AND CONTACT */
 
 .resume h2 {
-    font-size: 120%;
-    padding-top: 26px;
+    font-size: 110%;
+    padding-top: 10px;
     line-height: 23px;
-    color: #3d75ad;
+    color: #7396d1;
     white-space: normal;
     width: auto;
 }
@@ -87,17 +83,23 @@ li a:hover {
 
 .resume p {
     font-size: 90%;
+    margin-bottom: 0.8px;
 }
 
 img {
     width: 100%;
     max-width: 300px;
     box-shadow: 0 0 20px #ccc;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.contactphoto img {
+    max-width:190px;
+    margin-bottom: 10px;
 }
 
 a:link {
-    color: #3d75ad;
+    color: #7396d1;
 }
 
 .email a:hover {
@@ -106,7 +108,7 @@ a:link {
 
 .linkedin-badge {
     object-position: relative;
-    padding-top: 1rem;
+    padding-top: 1.2rem;
 }
 
 .linkedin-badge i {
