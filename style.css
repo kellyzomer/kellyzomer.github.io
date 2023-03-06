@@ -22,7 +22,7 @@ nav {
     font-size: 115%;
     padding-top: 10px;
     text-align: justify-all;
-    flex-grow: 4;
+    word-spacing: 0.7rem;
 }
 
 nav a {
