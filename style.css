@@ -112,7 +112,7 @@ h2 {
 }
 
 .blogposts a:hover {
-    color: #828282;
+    text-decoration: underline;
 }
 
 img {
