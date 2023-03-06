@@ -48,8 +48,18 @@ header {
 
 h1 {
     padding-top: 30px;
-    font-size: 27px;
+    font-size: 50px;
     font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 45px;
+    text-align: left;
+}
+
+h2 {
+    font-family: roboto mono;
+    padding-top: 5px;
+    font-size: 25px;
+    font-weight: 300;
     margin-bottom: 15px;
     line-height: 45px;
     text-align: left;
@@ -64,10 +74,9 @@ h1 {
     font-size: 95%;
 }
 
-
 /* RESUME, BLOG AND CONTACT */
 
-.resume h2 {
+.resume h3 {
     font-size: 110%;
     padding-top: 10px;
     line-height: 23px;
@@ -76,19 +85,38 @@ h1 {
     width: auto;
 }
 
-.resume h3 {
-    font-size: 90%;
+.resume h4 {
+    font-family: roboto mono;
+    font-size: 95%;
     color: #828282;
     font-style: italic;
     line-height: 3px;
+    margin-bottom: 30px;
 }
+
 
 .resume p {
     font-size: 90%;
     margin-bottom: 0.8px;
 }
 
+.blogposts {
+    font-family: roboto mono;
+    font-size: 110%;
+}
+
+.blogposts a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #7396d1;
+}
+
+.blogposts a:hover {
+    color: #828282;
+}
+
 img {
+    margin-top: 15px;
     width: 100%;
     max-width: 300px;
     box-shadow: 0 0 20px #ccc;
