@@ -15,5 +15,5 @@ git add <file>
 git diff --cached
 git commit
 git log
-git push origin master
+git push
 ```
