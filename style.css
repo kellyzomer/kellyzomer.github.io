@@ -74,6 +74,11 @@ h2 {
     font-size: 95%;
 }
 
+.kokenmet a {
+    list-style-type: none;
+    color: #7396d1;
+}
+
 /* RESUME, BLOG AND CONTACT */
 
 .resume h3 {
@@ -93,7 +98,6 @@ h2 {
     line-height: 3px;
     margin-bottom: 30px;
 }
-
 
 .resume p {
     font-size: 90%;
