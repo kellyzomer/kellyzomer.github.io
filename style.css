@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300&display=swap');
 
 body {
-    background-color: #f5f5f5;
+    background-color: #f5f3f0;
     font-family: 'Roboto Slab';
-    color: #33373b;
+    color: #49352f;
     margin: auto;
     padding: 1.4rem;
     letter-spacing: .06rem;
@@ -16,22 +16,24 @@ body {
 
 nav {
     font-family: 'Roboto Mono';
-    font-weight: 300;
+    font-weight: 400;
     font-size: 115%;
-    padding-top: 10px;
-    text-align: justify-all;
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: center;
     word-spacing: 0.7rem;
 }
 
-nav a {
+nav a,
+nav a:visited {
     line-height: 30px;
-    color: #828282;
+    color: #80664b;
     text-decoration: none;
     list-style-type: none;
 }
 
 nav a:hover {
-    color: #7396d1;
+    color: #665039;
 }
 
 header {
@@ -70,13 +72,21 @@ h2 {
     padding: 0.3em;
 }
 
+.paragraph1 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
 .paragraph1 p {
+    color: #49352f;
     font-size: 95%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .kokenmet a {
     list-style-type: none;
-    color: #7396d1;
+    color: #80664b;
 }
 
 /* RESUME, BLOG AND CONTACT */
@@ -85,7 +95,7 @@ h2 {
     font-size: 110%;
     padding-top: 10px;
     line-height: 23px;
-    color: #7396d1;
+    color: #8ab3d6;
     white-space: normal;
     width: auto;
 }
@@ -93,7 +103,7 @@ h2 {
 .resume h4 {
     font-family: roboto mono;
     font-size: 95%;
-    color: #828282;
+    color: #49352f;
     font-style: italic;
     line-height: 3px;
     margin-bottom: 30px;
@@ -112,7 +122,7 @@ h2 {
 .blogposts a {
     text-decoration: none;
     list-style-type: none;
-    color: #7396d1;
+    color: #80664b;
 }
 
 .blogposts a:hover {
@@ -132,8 +142,16 @@ img {
     margin-bottom: 10px;
 }
 
-a:link {
-    color: #7396d1;
+a:link,
+a:visited {
+    color: #80664b;
+}
+
+a:hover,
+a:focus-visible {
+    color: #665039;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.15em;
 }
 
 .email a:hover {
@@ -146,9 +164,13 @@ a:link {
 }
 
 .linkedin-badge i {
-    color: #828282;
+    color: #49352f;
 }
 
 .linkedin-badge a:hover {
     opacity: 0.6;
 }
+
+.indexphoto { align-items: center; background-color: #8ab3d6; border-radius: 18px; box-sizing: border-box; display: flex; gap: 1rem; justify-content: space-between; margin: 34px 0 28px; max-width: 100%; padding: 16px; width: 100%; }
+.indexphoto-name { color: #fff; flex: 1; font-size: clamp(2rem, 7vw, 3.8rem); font-weight: 400; letter-spacing: 0; line-height: 1.08; word-spacing: 0; }
+.indexphoto img { aspect-ratio: 1 / 1; border-radius: 10px; box-shadow: none; display: block; flex: 0 0 38%; margin: 0; max-width: 230px; object-fit: cover; object-position: center 38%; width: 38%; }

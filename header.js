@@ -19,7 +19,6 @@ template.innerHTML=`
          <a href="/blog/" title="Blog">Blog</a>
          <a href="/contact/" title="Contact">Contact</a>
       </nav>
-      <h1>Kelly Zomer</h1>
    </header>
 `
 
