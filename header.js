@@ -4,7 +4,6 @@ template.innerHTML=`
     <meta name="description" content="Kelly Zomer: data engineer, economic geographer and parttime traveler who likes to climb. Read more about me, my interests and my contact details.">
       <meta name="author" content="Kelly Zomer">
       <meta name="robots" content="index, follow">
-      <link rel="stylesheet" href="/style.css">
       <!-- Mobile friendly size -->
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <!-- all icons -->
